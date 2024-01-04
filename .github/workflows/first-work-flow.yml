@@ -5,7 +5,6 @@ jobs:
     runs-on: ubuntu-latest              # Runner Name
     steps:
       - name: Print Greeting            # Name of Step 1
-        run: Echo "Hello Vishnu"        # Command
+        run: echo "Hello Vishnu"        # Command
       - name: Print Gud Bye             # Name of Step 2
-        run: Echo "Bye Vishnu"          # Command
-
+        run: echo "Bye Vishnu"          # Command
